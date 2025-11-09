@@ -151,14 +151,15 @@ html,body{
 }
 
 #product-section{
-    height: 80%;
+    min-height: 700px;
+    padding-bottom: 30px;
     width: 100%;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-   
+    padding-bottom: 30px;
 }
 
 #product1{
@@ -170,7 +171,7 @@ html,body{
     text-align: center;
     color: black;
     padding-top: 40px;
-    height: 90%;
+    height: 610px;
     width: 48% ;
     background-image: url(https://www.apple.com/v/home/ci/images/promos/macos-continuity/promo_macos_continuity__ghk221sska2q_medium_2x.jpg);
     background-size: cover;
@@ -182,18 +183,18 @@ html,body{
     color: white;
     background-color: royalblue;
     font-size: 20px;
-    padding: 20px 30px;
+    padding: 10px 30px;
     border: none;
     border-radius: 50px;
 
 }
 #product1 p{
-    font-size: 20px;
+    font-size: 23px;
     font-family: apple;
 
 }
 #product1 h1{
-    font-size: 40px;
+    font-size: 60px;
     font-family: apple;
 
 }
@@ -206,7 +207,7 @@ html,body{
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 40px;
-    height: 90%;
+    height: 610px;
     width: 48% ;
     background-image: url(https://www.apple.com/v/home/ci/images/promos/ipad-pro/promo_ipad_pro__c529dk533k4m_medium_2x.jpg);
     background-size: cover;
@@ -221,7 +222,7 @@ html,body{
     text-align: center;
     color: black;
     padding-top: 40px;
-    height: 90%;
+    height: 610px;
     width: 48% ;
     background-image: url(https://www.apple.com/v/home/ci/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg);
     background-size: cover;
@@ -236,7 +237,7 @@ html,body{
     text-align: center;
     color: black;
     padding-top: 40px;
-    height: 90%;
+    height: 610px;
     width: 48% ;
     background-image: url(https://www.apple.com/v/home/ci/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium_2x.jpg);
     background-size: cover;
@@ -252,7 +253,7 @@ html,body{
     text-align: center;
     color: black;
     padding-top: 40px;
-    height: 90%;
+    height: 610px;
     width: 48% ;
     background-image: url(https://www.apple.com/v/home/ci/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
     background-size: cover;
@@ -270,7 +271,7 @@ html,body{
     text-align: center;
     color: black;
     padding-top: 40px;
-    height: 90%;
+    height: 610px;
     width: 48% ;
     background-image: url(https://www.apple.com/v/home/ci/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium_2x.jpg);
     background-size: cover;
@@ -283,9 +284,10 @@ html,body{
     color: white;
     background-color: royalblue;
     font-size: 20px;
-    padding: 20px 30px;
+    padding: 10px 30px;
     border: none;
     border-radius: 50px;
+    margin-right: 10px;
 
 }
 
@@ -293,36 +295,40 @@ html,body{
     color: white;
     background-color: royalblue;
     font-size: 20px;
-    padding: 20px 30px;
+    padding: 10px 30px;
     border: none;
     border-radius: 50px;
+    margin-right: 10px;
 
 }
 #product4 button{
     color: white;
     background-color: royalblue;
     font-size: 20px;
-    padding: 20px 30px;
+    padding: 10px 30px;
     border: none;
     border-radius: 50px;
+    margin-right: 10px;
 
 }
 #product5 button{
     color: white;
     background-color: royalblue;
     font-size: 20px;
-    padding: 20px 30px;
+    padding: 10px 30px;
     border: none;
     border-radius: 50px;
+    margin-right: 10px;
 
 }
 #product6 button{
     color: white;
     background-color: royalblue;
     font-size: 20px;
-    padding: 20px 30px;
+    padding: 10px 30px;
     border: none;
     border-radius: 50px;
+    margin-right: 10px;
 
 }
 
@@ -330,18 +336,63 @@ html,body{
     background-color: transparent;
     color: royalblue;
     border: 2px solid royalblue;
-    padding: 20px 40px;
+    padding: 10px 40px;
 }
 
-#tv-section{
-    height: 100%;
-    width: 100%;
+
+#product2 p{
+    font-size: 23px;
+    font-family: apple;
+
+}
+#product2 h1{
+    font-size: 60px;
+    font-family: apple;
+
 }
 
-#tv-section #tv1{
-    height: 70%;
-    width: 80%;
-    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/S9dLxU_nCvhomqGnI3-d_g/1378x774.jpg);
-    background-size: cover;
-    background-position: center;
+#product3 p{
+    font-size: 23px;
+    font-family: apple;
+
 }
+#product3 h1{
+    font-size: 60px;
+    font-family: apple;
+
+}
+
+
+#product4 p{
+    font-size: 23px;
+    font-family: apple;
+
+}
+#product4 h1{
+    font-size: 60px;
+    font-family: apple;
+
+}
+
+#product5 p{
+    font-size: 23px;
+    font-family: apple;
+
+}
+#product5 h1{
+    font-size: 60px;
+    font-family: apple;
+
+}
+
+#product6 p{
+    font-size: 23px;
+    font-family: apple;
+
+}
+#product6 h1{
+    font-size: 60px;
+    font-family: apple;
+
+}
+
